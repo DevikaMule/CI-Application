@@ -17,8 +17,7 @@ driver = webdriver.Remote(
 )
 
 # 🔹 Open your Flask app (running on host)
-driver.get("http://host.docker.internal:5001")
-
+driver.get("http://localhost:5000")
 time.sleep(3)
 
 # 🔹 Perform test
